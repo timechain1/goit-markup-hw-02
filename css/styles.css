@@ -52,7 +52,7 @@
 }
     
 .span-logo {
-    color: var(--color2);
+    color: var(--color2); 
 }
 
  .logo { 
@@ -318,23 +318,24 @@ color: var(--accent-text-color);
     top: 2097px;
 }
 
+.footer__logo {
 
-
-.footer-logo {
     display: inline-block;
     margin-bottom: 20px;
     margin-left: 215px;
     margin-top: 60px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--color1);
+  
+    color: var(--title-text-color);
  }
 
- .span-logo{
+ .span__logo{
     color: var(--color2); 
  }
 
