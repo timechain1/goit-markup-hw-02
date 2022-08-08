@@ -1,10 +1,10 @@
-/* Убираем внутренние отступы */
+/* Delete inside indents */
 ul[class],
 ol[class] {
     padding: 0;
 }
 
-/* Убираем внешние отступы */
+/* Delete outside indents */
 body,
 h1,
 h2,
@@ -24,18 +24,18 @@ dd {
 
 
 
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+/* Delete standart stylization for all ul и il, wich has atribute class*/
 ul[class],
 ol[class] {
     list-style: none;
 }
 
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+/* Elements a, wich don't have class, throw to default styles */
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
 
-/* Упрощаем работу с изображениями */
+/* Simplify work with images */
 img {
     max-width: 100%;
     display: block;
@@ -79,9 +79,12 @@ ul {
 
 }
 
+
+
 section {
     display: block;
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -117,6 +120,9 @@ section {
     background: #FFFFFF;
 }
 
+.studio-link{
+
+}
 
 .header-nav {
     height: 80px;
@@ -132,11 +138,7 @@ section {
 .header-list {
     display: flex;
     gap: 50px;
-
-
 }
-
-
 
 .header-item a {
     font-weight: 500;
@@ -259,7 +261,6 @@ text-align: center;
     padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
 }
 
 .gallery-title,
@@ -290,7 +291,7 @@ text-align: center;
     margin-right: 0;
 }
 
-/* Наша команда */
+/* Our team */
 
 .team {
     padding-top: 94px;
@@ -377,6 +378,7 @@ text-align: center;
     margin-top: 50px;
 
 }
+
 
 .works-list {
     display: flex;
