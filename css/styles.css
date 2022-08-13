@@ -341,6 +341,7 @@
     box-sizing: content-box;
     height: 40px;
     border-radius: 4px;
+    color:var(--title-color)
   }
 
   .button-list button {
@@ -352,11 +353,8 @@
     letter-spacing: 0.03em;
     padding-left: 30px;
     padding-right: 30px;
-    
-  
     box-sizing: content-box;
     height: 40px;
-
     border-radius: 4px;
     border: var(--team-color);
   }
